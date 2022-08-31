@@ -9,5 +9,6 @@ class ApiController extends Controller
 {
     public function ObtenerDatos(){
         return Registros::all();
+        //este comentario va a danar todo el proyecto
     }
 }
